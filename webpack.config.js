@@ -13,8 +13,12 @@ var webpackConfig = {
 				test: /\.js$/
 			},
 			{
-				loaders:["css", "style", "sass"],
+				loaders:["style", "css", "sass"],
 				test: /\.scss$/
+			},
+			{
+				loaders:["url", "img"],
+				test: /\.png$/
 			}
 		]
 	},
